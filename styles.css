@@ -33,10 +33,15 @@ list-style-type: none;
 padding: 0}
 
 img {
-    width: 200px;
+    width: 350px;
     height: auto;
 }
 
 .s1-content {
     display: flex;
+    justify-content: space-evenly;
+}
+
+.left {
+    width: 350px;
 }
