@@ -30,7 +30,9 @@ body {
 
 ul {display: flex;
 list-style-type: none;
-padding: 0}
+padding: 0;
+gap: 30px;
+}
 
 img {
     width: 350px;
@@ -44,4 +46,15 @@ img {
 
 .left {
     width: 350px;
+}
+
+.main {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.secondary {
+    font-size: 18px;
+    color: #e5e7e5;
 }
