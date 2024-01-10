@@ -13,8 +13,7 @@ body {
 .header 
 {display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 500px;
+    justify-content: space-evenly;
     margin-bottom: 50px;
 }
 
