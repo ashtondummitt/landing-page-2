@@ -31,17 +31,17 @@ body {
 ul {display: flex;
 list-style-type: none;
 padding: 0;
-gap: 30px;
+gap: 75px;
 }
 
 img {
-    width: 350px;
+    width: 400px;
     height: auto;
 }
 
 .s1-content {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
 
 }
@@ -63,4 +63,11 @@ img {
 
 button {
     margin-top: 10px;
+    background-color: #008cba;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    width: 30%;
+    font-weight: bold;
+    border: none;
 }
