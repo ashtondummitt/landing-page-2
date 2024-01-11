@@ -13,7 +13,7 @@ body {
 .header 
 {display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin-bottom: 50px;
 }
 
@@ -30,10 +30,10 @@ body {
 ul {display: flex;
 list-style-type: none;
 padding: 0;
-gap: 75px;
+gap: 50px;
 }
 
-li a {
+li, a {
     text-decoration: none;
     color: #e5e7eb;
 
@@ -91,9 +91,13 @@ margin-top: 60px;
 }
 
 .underline {
+    width: 250px;
+    border-bottom: 2px solid white;
+    margin-bottom: 10px;
+}
+.underline-2 {
     width: 500px;
     border-bottom: 2px solid black;
-    margin-bottom: 60px;
 }
 
 .top, .bottom {
@@ -101,9 +105,11 @@ margin-top: 60px;
     gap: 75px;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .top {
+    margin-top: 49px;
     margin-bottom: 50px;
 }
 .bottom {
@@ -128,5 +134,9 @@ margin-top: 60px;
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
-    
+    padding: 20px 0px; 
 }
+.author {
+    margin-left: 550px;
+}
+
