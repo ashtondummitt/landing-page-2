@@ -1,3 +1,7 @@
+/* * {
+    border: 1px solid black;
+} */
+
 body {
     display: flex;
     flex-direction: column;
@@ -64,7 +68,7 @@ img {
     color: #e5e7e5;
 }
 
-button {
+.button-1 {
     margin-top: 10px;
     background-color: #3882f6;
     color: white;
@@ -136,4 +140,42 @@ margin-top: 60px;
 }
 .author {
     margin-left: 550px;
+}
+
+.cta-container {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+    background-color: #3882f6;
+    height: 100px;
+    margin: 50px;
+    border-radius: 5px;
+}
+
+.cta-text {
+    color: white;
+    font-weight: 600;
+}
+
+.button-2 {
+    background-color: #3882f6;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    border: 1px solid white;
+}
+
+.section-5 { 
+    background-color: #1F2937;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text {
+    color: white;
+    
 }
